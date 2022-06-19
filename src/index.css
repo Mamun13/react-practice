@@ -1,13 +1,21 @@
-*{
+@font-face {
+  font-family: 'ds-digital';
+  src: url('./assets/fonts/ds_digital/DS-DIGIB.TTF');
+}
+
+* {
   padding: 0px;
   margin: 0px;
 }
-a{
+
+a {
   text-decoration: none;
 }
-body{
-  background-color: rgb(154, 149, 149);
+
+body {
+  background-color: rgb(64, 63, 63);
 }
+
 /* .header{
   background: rgb(125, 123, 123);
 }
@@ -69,20 +77,18 @@ body{
   padding: 14px 16px;
   text-decoration: none;
 } */
-.clock{
+.clock {
   text-align: center;
   padding-top: 260px;
-  font-size: 70px;
+  font-size: 100px;
+  /* font-family: 'Kdam Thmor Pro', sans-serif; */
+  font-family: 'ds-digital';
+  color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.date{
+  color: white;
+  padding-left: 59%;
+  font-family: 'ds-digital';
+  font-size: 20px;
+  margin-top: -20px;
+}
